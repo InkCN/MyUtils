@@ -8,7 +8,7 @@ import java.io.*;
 @SuppressWarnings("ResultOfMethodCallIgnored")
 public class ReadTextContent {
     public static void main(String[] args) throws IOException {
-        //修改路径即可
+        //请修改下面的字符串内容：改为要读取的文件路径
         String path = "请在这里填入要读取文件的路径";
 
         String text = ReadText(path);
