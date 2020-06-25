@@ -9,7 +9,7 @@ import java.io.*;
 public class ReadTextContent {
     public static void main(String[] args) throws IOException {
         //修改路径即可
-        String path = "C:\\Users\\Administrator\\Desktop\\测试文本.txt";
+        String path = "请在这里填入要读取文件的路径";
 
         String text = ReadText(path);
         System.out.print(text);
@@ -70,8 +70,8 @@ public class ReadTextContent {
 
         /*
           ANSI： 无格式定义
-          Unicode：前两个字节为FFFE Unicode文档以0xFFFE开头
-          Unicode big endian： 前两字节为 FEFF
+          Unicode：前两个字节为0xFFFE Unicode文档以0xFFFE开头
+          Unicode big endian： 前两字节为 0xFEFF
           UTF-8(带BOM):  以0xEFBBBF开头
           比如：0xFFFE：第一个字节：
           0xFF:换为二进制：11111111（八个一），转成补码：10000001(第一位是符号，故为-1)
