@@ -54,6 +54,7 @@ public class ReadTextContent {
 
         while ((str = br.readLine()) != null)
             builder.append(str).append("\n");
+        builder.deleteCharAt(builder.length() - 1);
 
         br.close();
 
