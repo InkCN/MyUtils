@@ -8,7 +8,7 @@ import java.io.*;
 @SuppressWarnings("ResultOfMethodCallIgnored")
 public class ReadTextContent {
     public static void main(String[] args) throws IOException {
-        String path = "Please fill in the path of the copied file!!";
+        String path = "Please fill in the path of the copied file!";
 
         String text = ReadText(path);
         System.out.print(text);
