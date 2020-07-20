@@ -3,7 +3,7 @@ package io;
 import java.io.*;
 
 /**
- * 读取文本内容为一个字符串
+ * 自动判断文件编码，读取文本内容为一个字符串
  */
 @SuppressWarnings("ResultOfMethodCallIgnored")
 public class ReadTextContent {

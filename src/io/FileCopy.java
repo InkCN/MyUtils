@@ -11,8 +11,8 @@ public class FileCopy {
         //被复制文件或文件夹的路径
         String oldPath = "Please fill in the path of the copied file or folder!!";
 
-        //新文件或新文件夹的存放路径
-        String newPath = "Please fill in the new file or new folder to store the path!!";
+        //新文件或新文件夹的存放路径 Please fill in the new file or new folder to store the path!!
+        String newPath = "Please fill in the path of the copied file or folder!!";
 
         boolean b = fileCopy(oldPath, newPath);
 
