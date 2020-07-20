@@ -3,7 +3,7 @@ package io;
 import java.io.*;
 
 /**
- * 文件复制
+ * copy the file
  */
 @SuppressWarnings({"ResultOfMethodCallIgnored", "ConstantConditions"})
 public class FileCopy {
