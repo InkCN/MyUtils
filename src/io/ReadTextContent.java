@@ -3,13 +3,12 @@ package io;
 import java.io.*;
 
 /**
- * 自动判断文件编码，读取文本内容为一个字符串
+ * get a string from a file.
  */
 @SuppressWarnings("ResultOfMethodCallIgnored")
 public class ReadTextContent {
     public static void main(String[] args) throws IOException {
-        //请修改下面的字符串内容：改为要读取的文件路径
-        String path = "请在这里填入要读取文件的路径";
+        String path = "Please fill in the path of the copied file!!";
 
         String text = ReadText(path);
         System.out.print(text);
