@@ -7,7 +7,7 @@ import java.net.URL;
 /**
  * download by url
  * <p>
- * 防止屏蔽程序抓取而返回403错误
+ * 防止屏蔽程序抓取而返回403错误可以使用以下语句：
  * conn.setRequestProperty("User-Agent","Mozilla/4.0 (compatible; MSIE 5.0; Windows NT; DigExt)");
  */
 public class DownLoadByURL {
